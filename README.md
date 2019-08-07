@@ -20,4 +20,6 @@ This is the map of the city, with red balls indicating stations in the given cit
 
 [Modeling for all cities](https://github.com/ShashiSingam/Bike-Share-Project/blob/master/Loop_for_a_city.ipynb): After selecting the best model to fit for one station by perfroming hyperparameter tuning then model is applied on all the cities by looping over the cities.
 
-## Results
+## Feature Importances
+![Feature_importance_model](https://user-images.githubusercontent.com/44444144/62619289-4df39300-b90e-11e9-8c31-b769cf60f306.png)
+![feature_importance_SHAP](https://user-images.githubusercontent.com/44444144/62619297-52b84700-b90e-11e9-8def-852fd4caff5f.png)
