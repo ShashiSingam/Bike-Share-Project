@@ -1,10 +1,23 @@
 # Bikes Prediction at any given station
 The project is about predicting the city bicycles availability at the docking stations at any given hour. 
-For this model the 3 datasets are provided, the job is to do ETL and data understanding and apply machine learning model to predict number of bikes at any given station at any given time. 
 
-The aim of the project is to keep minimum number of bikes available at all times at any given station.
+Three "csv" files are provided, the job is to do ETL, data understanding and apply machine learning model to predict number of bikes at any given station at any given time in any given city. 
 
-When the total number of bikes are less in any given station the model notifies the bike fillers.
+The goal of the project is to help bike-loading company in the city by predictiing bikes change in next hour so that loading can be performed efficiently. 
 
+The motive of the bike-loading compnay is to keep bikes available for customers to take bike and also free spots available to return bikes.
 
+With this model the bike-company can get information about the bikes and free spots available at any given station.
+
+This is the map of the city, with red balls indicating stations in the given city. By clicking on the red balls the bike availability can be seen.
 ![Map_with_stations](https://user-images.githubusercontent.com/44444144/61697319-ea267300-ad2e-11e9-850f-16ac0fb3e17e.png)
+
+## Notebooks
+
+[EDA and data understanding](https://github.com/ShashiSingam/Bike-Share-Project/blob/master/Final_EDA_Merging_revisited.ipynb): Exploratory data analysis, understanding of data, merging of data
+
+[Modeling for one city](https://github.com/ShashiSingam/Bike-Share-Project/blob/master/HOUR_Final_model_bikeshare_regression.ipynb): develop machine learning algorithms to predict labels from features; use automated genetic search tools to search for best model.
+
+[Modeling for all cities](https://github.com/ShashiSingam/Bike-Share-Project/blob/master/Loop_for_a_city.ipynb): After selecting the best model to fit for one station by perfroming hyperparameter tuning then model is applied on all the cities by looping over the cities.
+
+## Results
